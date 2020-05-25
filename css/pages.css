@@ -1,0 +1,18 @@
+/*The About Us Page*/
+
+.breadcrumb{
+ padding: 10px 0;
+}
+
+.about-us{padding: 70px;}
+
+.about-us h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.abuot-feat{padding: 0 0 70px;}
+
+.abuot-feat p{margin-bottom: 20px;}
+
+.about-ceo{padding: 20px 0;}

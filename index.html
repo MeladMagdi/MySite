@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <title>Bootstrab Web Site</title>
+     <meta charset="utf-8">
+     <!--End Bootstrab meta-->
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!--End Bootstrab meta-->
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/fontawesome-all.min.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/pages.css">
+     <link rel="stylesheet" href="css/animate.css">
+     <link rel="stylesheet" href="css/def_theme.css">
+      <!--[if lt IE 9]-->
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <!--[endif]-->
+</head>
+<body>
+    <!--Start Section Tool Box-->
+        <section class="option-box">
+            <div class="color-option" id="color-option">
+                <h4>Option Color</h4>
+                <ul class="list-unstyled">
+                    <li data-value="css/def_theme.css"></li>
+                    <li data-value="css/green_theme.css"></li>
+                    <li data-value="css/purble_theme.css"></li>
+                    <li data-value="css/yowllo_theme.css"></li>
+                </ul>
+            </div>
+            <i class="fas fa-cog fa-3x fa-fw gear-opi" id="gear-opi"></i>
+        </section>
+    <!--End Section Tool Box-->
+        <!--Start Navbar-->
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="#">Lord <span>Inc.</span></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="#">Campany</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Others<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Php Dev</a></li>
+            <li><a href="#">Web Devloper</a></li>
+            <li><a href="#">Design</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Contnat Us</a></li>
+          </ul>
+        </li>
+          <li><a href="#">Ask Us</a></li>
+        <li><a href="#">Map</a></li>
+      </ul>
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+    
+    <!--End Navbar-->
+    
+    <!--Strart Caruosal-->
+    
+    <div id="myslide" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators hidden-xs">
+    <li data-target="#myslide" data-slide-to="0" class="active"></li>
+    <li data-target="#myslide" data-slide-to="1"></li>
+    <li data-target="#myslide" data-slide-to="2"></li>
+    <li data-target="#myslide" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="css/image/header.jpg" alt="...">
+      <div class="carousel-caption">
+        <h1>Love In Street In Cairo</h1>
+        <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in </p>
+          <button class="btn btn-primary">Read More</button>
+      </div>
+    </div>
+    <div class="item">
+      <img src="css/image/header-bg.jpg" alt="...">
+      <div class="carousel-caption">
+          <h1>I Love Programing Soo Matsh</h1>
+          <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in </p>
+          <button class="btn btn-primary">Read More</button>
+      </div>
+    </div>
+            
+       <div class="item">
+      <img src="css/image/ipad.jpg" alt="...">
+      <div class="carousel-caption">
+          <h1>I Love Php Programing</h1>
+          <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in </p>
+          <button class="btn btn-primary">Read More</button>
+      </div>
+    </div>
+       <div class="item">
+      <img src="css/image/pexels-photo.jpeg" alt="...">
+      <div class="carousel-caption">
+          <h1>I love JS HTML CSS</h1>
+          <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in </p>
+          <button class="btn btn-primary">Read More</button>
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myslide" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myslide" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    <!--End Carousal-->
+    
+    <!--Start Abuot -->
+    
+        <section class="abuot text-center wow bounceIn">
+            <div class="container">
+            <h1>Met Our New Teamblet <span>Lord </span><span class="colr">.Inc</span></h1>
+            <p class="lead">Hallo this is be build by bootstrab 3 and old and desiner is <strong>meladmagdi</strong>
+            </p>
+            </div>
+        </section>
+    
+    <!--End Abuot -->
+    
+    <!--Start Features -->
+    
+        <section class="features text-center wow bounceInUp" data-wow-duration=".6s" data-wow-delay=".6s">
+            <div class="container">
+                    <h1>Our Features</h1>
+                    <div class="row">
+                        <div class="feat">
+                    <div class="col-lg-3 col-md-6">
+                    <span class="glyphicon glyphicon-ok"></span>
+                        <h3>100% Reasbansov</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                    </div>
+                        
+                    <div class="feat">'
+                    <div class="col-lg-3 col-md-6">
+                    <span class="glyphicon glyphicon-thumbs-up"></span>
+                        <h3>Ready Reitina</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                    </div>
+                        
+                    <div class="feat">
+                    <div class="col-lg-3 col-md-6">
+                    <span class="glyphicon glyphicon-signal"></span>
+                        <h3>Awosome Display</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                    </div>
+                        
+                    <div class="feat">
+                    <div class="col-lg-3 col-md-6">
+                    <span class="glyphicon glyphicon-pencil"></span>
+                        <h3>Well Doucmented</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </section>
+    
+    <!--End feautres-->
+    
+    <!--Start Testimonials-->
+        
+        <section class="testimonials text-center wow fadeInRight" id="About" data-wow-duration=".6s" data-wow-delay=".6s">
+            <div class="container">
+                <h1>Wht Our Clients Say?</h1>
+
+                <!--Strart Testimonials Caruosal-->
+
+            <div id="caruosal-testi" class="carousel slide" data-ride="carousel">
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially</p>
+                    <span>Melad Magdi</span>
+                </div>
+                <div class="item">
+                    <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially</p>
+                    <span>MeladMedo</span>
+                </div> 
+                   <div class="item">
+                    <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially</p>
+                    <span>Lorem Ipsum</span>
+                </div>
+                   <div class="item">
+                    <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially</p>
+                    <span>Romaney Magdy</span>
+                </div>
+                  
+                  <ol class="carousel-indicators">
+                <li data-target="#caruosal-testi" data-slide-to="0" class="active">
+                    <img src="css/image/09.png" alt="image">      
+                </li>
+                <li data-target="#caruosal-testi" data-slide-to="1">
+                    <img src="css/image/07.jpg" alt="image2">      
+                </li>
+                <li data-target="#caruosal-testi" data-slide-to="2">
+                    <img src="css/image/01.png" alt="image0">      
+                </li>
+                <li data-target="#caruosal-testi" data-slide-to="3">
+                    <img src="css/image/Steve%20jops.jpeg" alt="steav">
+                </li>
+              </ol>
+                  
+              </div>
+            </div>
+    <!--End Carousal-->    
+    </div>
+            
+        </section>
+    
+    <!--End Testimonials-->
+    
+    <!-- Start Section Price -->
+    
+        <section class="price-table text-center">
+            <div class="container">
+                    <h1>Our Amazing Price</h1>
+                <div class="row"> 
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="price-box wow flipInX" data-wow-duration=".6s" data-wow-delay=".6s">
+                            <h2 class="text-primary">Hosting</h2>
+                            <p class="center-block">$40</p>
+                            <ul class="list-unstyled">
+                                <li>Space: 30GB</li>
+                                <li>Emials: 30</li>
+                                <li>Ips: 2IP</li>
+                                <li>Databases: 10</li>
+                                <li>Ftb Accounts: 5</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="price-box wow flipInY"data-wow-duration=".6s" data-wow-delay=".6s">
+                         <h2 class="text-success">Vps</h2>
+                            <p class="center-block">$60</p>
+                            <ul class="list-unstyled">
+                                <li>Space: 30GB</li>
+                                <li>Emials: 30</li>
+                                <li>Ips: 2IP</li>
+                                <li>Databases: 10</li>
+                                <li>Ftb Accounts: 5</li>
+                            </ul>
+                            <a href="#" class="btn btn-success">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="price-box wow flipOutX"data-wow-duration=".6s" data-wow-delay=".6s">
+                         <h2 class="text-info">Detecated</h2>
+                            <p class="center-block">$70</p>
+                            <ul class="list-unstyled">
+                                <li>Space: 30GB</li>
+                                <li>Emials: 30</li>
+                                <li>Ips: 2IP</li>
+                                <li>Databases: 10</li>
+                                <li>Ftb Accounts: 5</li>
+                            </ul>
+                            <a href="#" class="btn btn-info">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="price-box wow flipOutY"data-wow-duration=".6s" data-wow-delay=".6s">
+                         <h2 class="text-danger">Cluod</h2>
+                            <p class="center-block">$90</p>
+                            <ul class="list-unstyled">
+                                <li>Space: 30GB</li>
+                                <li>Emials: 30</li>
+                                <li>Ips: 2IP</li>
+                                <li>Databases: 10</li>
+                                <li>Ftb Accounts: 5</li>
+                            </ul>
+                            <a href="#" class="btn btn-danger">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+    
+    <!-- End Section Price -->
+    
+    <!-- Strat Seciton Our Team-->
+    
+    <section class="our-team text-center">
+        <div class="team">
+        <div class="container">
+            <h1>About Awosome Our Team</h1>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="person wow rotateInUpRight"data-wow-duration=".6s" data-wow-delay=".6s">
+                        <img class="img-circle" src="css/image/Steve%20jops.jpeg" alt="image0">
+                        <h2>Steve jobs</h2>
+                        <p>This Man has hav fans in all world he make apple awosome</p>
+                        <i class="fab fa-apple fa-3x fa-fw"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="person wow rotateInUpLeft"data-wow-duration=".6s" data-wow-delay=".6s">
+                        <img class="img-circle" src="css/image/0.jpg" alt="image">
+                        <h2>Space</h2>
+                        <p>This Man has hav fans in all world he make apple awosome</p>
+                        <i class="fab fa-studiovinari fa-3x fa-fw"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="person wow rotateInDownRight"data-wow-duration=".6s" data-wow-delay=".6s">
+                        <img class="img-circle" src="css/image/01.png" alt="imalge1">
+                        <h2>Space Tow</h2>
+                        <p>This Man has hav fans in all world he make apple awosome</p>
+                        <i class="fas fa-space-shuttle fa-3x fa-fw"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="person wow rotateInDownLeft"data-wow-duration=".6s" data-wow-delay=".6s">
+                        <img class="img-circle" src="css/image/03.jpg" alt="image2">
+                        <h2>Melad Magdi</h2>
+                        <p>This Man has hav fans in all world he make apple awosome</p>
+                        <i class="fas fa-user fa-3x fa-fw"></i>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- End Seciton Our Team-->
+    
+    <!-- Start Seaction Sibscrieb-->
+    
+        <section class="subscrieb text-center">
+          <div class="container">
+            <h1>Keeb Your Tuch</h1>
+              <p class="lead">Subscribe The Site Tow Enjoe My Our Site.</p>
+              <form class="form-inline">
+                <input class="form-control input-lg" type="text" placeholder="Write your Emial"/>
+                  <button class="btn btn-danger btn-lg"><i class="fas fa-edit fa-lg"></i>Subscribe</button>
+              </form>
+        </div>
+        </section>
+    
+    <!-- End Seaction Sibscrieb-->
+    
+    <!--sTART Seaction Stat-->
+    
+        <section class="stat text-center">
+            <div class="data">
+            <div class="container">
+                <h1>What Our Statistics</h1>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="stats wow slideInUp" data-wow-duration=".6s" data-wow-delay=".6s">
+                            <i class="fas fa-users fa-5x"></i>
+                            <p>5,550</p>
+                            <span>Members Accaont</span>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-6">
+                        <div class="stats wow slideInRight" data-wow-duration=".6s" data-wow-delay=".6s">
+                            <i class="fas fa-comments fa-5x"></i>
+                            <p>35,600</p>
+                            <span>Comments Site</span>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-6">
+                        <div class="stats wow slideInLeft" data-wow-duration=".6s" data-wow-delay=".6s">
+                            <i class="fas fa-suitcase fa-5x"></i>
+                            <p>4,800</p>
+                            <span>Projct Done</span>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-6">
+                        <div class="stats wow slideInDown" data-wow-duration=".6s" data-wow-delay=".6s">
+                            <i class="fas fa-users fa-5x"></i>
+                            <p>89,900</p>
+                            <span>Tackis Done</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            </div>
+        </section>
+    
+    <!--End Seaction Stat-->
+    
+    <!--Start Seaction Our Skills-->
+    
+        <section class="our-skills">
+            <div class="container">
+            <h1 class="text-center">Our Skills</h1>
+            <div class="row">
+                
+                <!--Start Proggres-->
+                
+                <div class="col-md-5">
+                    <div class="skills-progress wow zoomIn" data-wow-duration=".6s" data-wow-delay=".6s">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                Html / Css3
+                            </div>
+                        </div>
+                            <div class="progress">
+                            <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                Php / Mysql
+                            </div>
+                        </div>
+                                <div class="progress">
+                            <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                JavaScript / Jquery
+                            </div>
+                        </div>
+                            <div class="progress">
+                            <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+                                Wordpress
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--Start Team Info-->
+                
+                <div class="col-md-5 col-md-offset-1">
+                    <div class="skills-info wow zoomInUp"data-wow-duration=".6s" data-wow-delay=".6s">
+                        <h3>About Team Skills</h3>
+                    <p class="lead">We Are the Team Of Profishnal in Design ine thing in web desgin And Devlober in the world we can do ine thing for you</p>
+                        <button type="button" class="btn btn-primary">Tallk Too A Profissonal</button>
+                    </div>
+                </div>
+                
+            </div>
+            </div>
+        </section>
+    
+    <!--End Seaction Our Skills-->
+    
+    <!--Start Section Contacus-->
+        <section class="contact-us text-center">
+            <div class="filed">
+                <div class="container">
+                    <div class="row">
+                    <i class="fas fa-headphones fa-5x"></i>
+                    <h1>Tell Us What You Fill</h1>
+                    <p class="lead">You Can Contact Us Ine Time And Free</p>
+                        
+                    <form role="form">
+                        
+                        <div class="col-md-6 wow rollIn"data-wow-duration=".6s" data-wow-delay=".6s">
+                            <div class="form-group">
+                                <input type="text" class="form-control input-lg" placeholder="UserName" />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control input-lg" placeholder="Email" />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control input-lg" placeholder="CallPhone" />
+                            </div>
+                        
+                        </div>
+                        <div class="col-md-6 wow rollIn" data-wow-duration=".6s" data-wow-delay=".6s">
+                            <div class="form-group">
+                                <textarea class="form-control input-lg" placeholder="Your Massage"></textarea>
+                            </div>
+                                <button type="button" class="btn btn-primary btn-lg btn-block">Send Massage</button>
+                        </div>
+
+                    </form>
+                        
+                     </div>
+                </div>
+            </div>
+        </section>
+    <!--End Section Contacus-->
+    <!--Start Section Our Clints-->
+        <section class="our-clints">
+            <div class="container">
+                <div class="row">
+                    <ul class="list-unstyled">
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block" src="css/image/01.png" alt="png" />
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block" src="css/image/02.jpg" alt="png2" />
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block" src="css/image/03.jpg" alt="png2" />
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block" src="css/image/07.jpg" alt="png2" />
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block" src="css/image/09.png" alt="png2" />
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block" src="css/image/09.png" alt="png2" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    <!--End Section Our Clints-->
+    
+    <!--Start Section Footer-->
+        <section class="footer">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <h1>Site Map</h1>
+                    <ul class="list-unstyled three-culumns">
+                    <li>Home</li>
+                    <li>Abuot Us</li>
+                    <li>Hosting</li>
+                    <li>Map</li>
+                    <li>Design</li>
+                    <li>Proogramer</li>
+                    <li>The Top</li>
+                    <li>Contact</li>
+                    <li>Gaming</li>
+                    </ul>
+                    <ul class="list-unstyled sochil-media">
+                    <li><img class="img-responsive" src="css/image/google.png" alt="Facebook" /></li>
+                    <li><img class="img-responsive" src="css/image/facebook.png" alt="Facebook" /></li>
+                    <li><img class="img-responsive" src="css/image/twitter.png" alt="Facebook" /></li>
+                    <li><img class="img-responsive" src="css/image/youtube.png" alt="Facebook" /></li>
+                    <li><img class="img-responsive" src="css/image/if_palette.png" alt="Facebook" /></li>
+                    <li><img class="img-responsive" src="css/image/if_palette.png" alt="Facebook" /></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                <h1>Latest Article</h1>
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-opject" src="css/image/twitter.png" alt="te">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Programing</h4>
+                            This Is SomeOne Programing Is Power Too You And Can Doo Ine Somting For U
+                        </div>
+                    </div>
+                    
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-opject" src="css/image/twitter.png" alt="te">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Coding</h4>
+                            This Is SomeOne Programing Is Power Too You And Can Doo Ine Somting For U
+                        </div>
+                    </div>
+                    
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-opject" src="css/image/twitter.png" alt="te">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Web Design</h4>
+                            This Is SomeOne Programing Is Power Too You And Can Doo Ine Somting For U
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <h1>Our Awosome Work</h1>
+                    <img class="img-thumbnail" src="css/image/ipad.jpg" alt="0">
+                    <img class="img-thumbnail" src="css/image/kerala.jpg" alt="0">
+                    <img class="img-thumbnail" src="css/image/website.jpeg" alt="0">
+                    <img class="img-thumbnail" src="css/image/photo4.jpeg" alt="0">   
+                </div>
+            </div>
+            </div>
+            <div class="copyright text-center">
+                Copyright &copy; 2018 <span>Your Name Web Site</span> .Inc
+                </div> 
+        </section>
+    <!--End Section Footer-->
+
+    <!--Start Section lodiang -->
+
+        <section class="lodaing-overlay">
+            <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+              </div>
+        </section>
+
+        <section id="to-top">
+            <i class="fas fa-chevron-up fa-3x fa-fw"></i>
+        </section>
+
+
+    <!--End Section lodiang-->
+    
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+
+</html>
